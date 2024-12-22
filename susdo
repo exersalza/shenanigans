@@ -1,0 +1,15 @@
+#!/bin/python3.12
+
+import subprocess
+import random
+import sys
+
+def main() -> int:
+    if random.randint(0, 10) == 7:
+        print(chr(sum(range(ord(min(str(not())))))))
+        return 420
+    
+    subprocess.run(["sudo", *sys.argv[1:]])
+
+if __name__ == "__main__":
+    exit(main())
